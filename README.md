@@ -1,6 +1,18 @@
 # Nuxt 3 Minimal Starter
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+### Документации и полезные ссылки
+
+[Nuxt](https://nuxt.com/docs/)
+
+[Vue](https://vuejs.org/guide/introduction.html)
+
+[Tailwind CSS](https://tailwindcss.com/docs/installation)
+
+[Heroicons](https://heroicons.com/)
+
+[HeadlessUI](https://headlessui.com/)
+
+[Tailwind UI](https://tailwindui.com/components/preview)
 
 ## Setup
 
