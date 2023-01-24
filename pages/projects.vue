@@ -1,5 +1,5 @@
 <template>
-  <Header>Projects</Header>
+  <Header>Проекты</Header>
   <div class="bg-gray-100">
     <div class="mx-auto max-w-7xl px-4 sm:px-6 py-5 lg:px-8">
       <div class="mx-auto max-w-2xl lg:max-w-none">

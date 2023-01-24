@@ -77,8 +77,9 @@ import { Bars3Icon, XMarkIcon } from "@heroicons/vue/24/outline";
 const route = useRoute();
 
 const navigation = [
-  { name: "Home", href: "/" },
-  { name: "Projects", href: "/projects" },
+  { name: "Главная", href: "/" },
+  { name: "Проекты", href: "/projects" },
+  { name: "Наша команда", href: "/team" },
   {
     name: "GitHub",
     href: "https://github.com/ShitCoderz",

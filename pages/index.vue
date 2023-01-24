@@ -52,32 +52,32 @@ import {
   BoltIcon,
   GlobeAltIcon,
   ScaleIcon,
-  UserCircleIcon
+  UserCircleIcon,
 } from "@heroicons/vue/24/outline";
 
 const features = [
   {
     name: "Притягивающий взгляд логотип",
     description:
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.",
+      "Лорем ипсум, долор сит амет консектетур адиписикинг елит. Маиорес импедит перферендис сускипит еакуе, исте долор купидитате бландитиис ратионе.",
     icon: GlobeAltIcon,
   },
   {
     name: "Опытные разработчики",
     description:
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.",
+      "Лорем ипсум, долор сит амет консектетур адиписикинг елит. Маиорес импедит перферендис сускипит еакуе, исте долор купидитате бландитиис ратионе.",
     icon: UserCircleIcon,
   },
   {
     name: "Интригующие проекты",
     description:
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.",
+      "Лорем ипсум, долор сит амет консектетур адиписикинг елит. Маиорес импедит перферендис сускипит еакуе, исте долор купидитате бландитиис ратионе.",
     icon: ScaleIcon,
   },
   {
     name: "Карьерный рост",
     description:
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.",
+      "Лорем ипсум, долор сит амет консектетур адиписикинг елит. Маиорес импедит перферендис сускипит еакуе, исте долор купидитате бландитиис ратионе.",
     icon: BoltIcon,
   },
 ];
