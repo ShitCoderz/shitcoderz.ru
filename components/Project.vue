@@ -26,6 +26,8 @@ export default {
     data: {
       name: String,
       href: String,
+      imageSrc: String,
+      description: String,
     },
   },
 };

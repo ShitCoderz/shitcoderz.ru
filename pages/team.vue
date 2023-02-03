@@ -26,6 +26,7 @@
 <script setup>
 import GitHubIcon from "@/assets/images/icons/github.svg";
 import TelegramIcon from "@/assets/images/icons/telegram.svg";
+import ShitEyesIcon from "@/assets/images/icons/shit_eyes.svg";
 
 const team = [
   {
@@ -34,6 +35,11 @@ const team = [
     desc: "Борец с прототипами и %",
     avatar: "https://github.com/Akann2.png",
     socials: [
+      {
+        label: "Akan on ShitCoderz",
+        link: "https://akan.shitcoderz.ru",
+        image: ShitEyesIcon,
+      },
       {
         label: "GitHub",
         link: "https://github.com/Akann2",
@@ -47,6 +53,11 @@ const team = [
     desc: "Создал хуйню, фанат Доры",
     avatar: "https://github.com/Yota002.png",
     socials: [
+      {
+        label: "Yota on ShitCoderz",
+        link: "https://yota.shitcoderz.ru",
+        image: ShitEyesIcon,
+      },
       {
         label: "GitHub",
         link: "https://github.com/Yota002",
