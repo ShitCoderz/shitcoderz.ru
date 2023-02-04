@@ -18,7 +18,7 @@
 <script setup>
 const projects = [
   {
-    name: "Портфолио разработчика OSU ",
+    name: "Портфолио разработчика OSU",
     href: "https://github.com/ShitCoderz/shit-ppy",
     description: "Shit PPY",
     imageSrc: "https://i.imgur.com/xsvPGW9.png",
@@ -29,6 +29,12 @@ const projects = [
     git: "https://github.com/ShitCoderz/short-url",
     description: "Сокращатель ссылок",
     imageSrc: "https://i.imgur.com/Zj7AFHx.png",
+  },
+  {
+    name: "Краткое пособие для начинающих разработчиков",
+    href: "https://yota002.notion.site/Front-End-fbf49fdfbf0d43acadd168cb6f4470a2",
+    description: "Старт во Front-End",
+    imageSrc: "https://i.imgur.com/L5zch0f.png",
   },
 ];
 </script>
