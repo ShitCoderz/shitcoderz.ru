@@ -4,7 +4,7 @@
     <div class="mx-auto max-w-7xl px-4 sm:px-6 py-5 lg:px-8">
       <div class="mx-auto max-w-2xl lg:max-w-none">
         <div
-          class="mt-6 space-y-12 lg:grid lg:grid-cols-3 lg:gap-x-6 lg:space-y-0"
+          class="mt-6 gap-y-6 space-y-12 lg:grid lg:grid-cols-3 lg:gap-x-6 lg:space-y-0"
         >
           <div v-for="item in projects" :key="item.name" class="group relative">
             <Project :data="item"></Project>
@@ -20,6 +20,7 @@ const projects = [
   {
     name: "Портфолио разработчика OSU",
     href: "https://github.com/ShitCoderz/shit-ppy",
+    git: "https://shitcoderz.github.io/shit-ppy/",
     description: "Shit PPY",
     imageSrc: "https://i.imgur.com/xsvPGW9.png",
   },
