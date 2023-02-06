@@ -6,7 +6,8 @@
     "dev": "next dev",
     "turbo": "next dev --turbo",
     "build": "next build",
-    "start": "next start",
+    "generate": "next export",
+    "start": "next start -p 9876",
     "lint": "next lint"
   },
   "dependencies": {
