@@ -1,7 +1,5 @@
 "use client";
 
-import Image from "next/image";
-
 export default function Project({ data }: { data: any }) {
   return (
     <a href={data.href}>
@@ -12,10 +10,8 @@ export default function Project({ data }: { data: any }) {
           className="h-full w-full object-cover object-center"
         />
       </div>
-      <p className="mt-6 text-sm text-gray-500">{data.name}</p>
-      <p className="text-base font-semibold text-gray-900">
-        {data.description}
-      </p>
+      <p className="mt-6 text-sm text-gray-500">{data.description}</p>
+      <p className="text-base font-semibold text-gray-900">{data.name}</p>
     </a>
   );
 }

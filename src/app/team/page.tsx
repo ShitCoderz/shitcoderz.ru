@@ -67,7 +67,12 @@ export default function Team() {
               <div className="flex gap-2 pt-1">
                 {person.socials.map((social) => (
                   <a key={social.link} href={social.link}>
-                    <Image width={32} height={32} src={social.image} alt={social.label} />
+                    <Image
+                      width={32}
+                      height={32}
+                      src={social.image}
+                      alt={social.label}
+                    />
                   </a>
                 ))}
               </div>

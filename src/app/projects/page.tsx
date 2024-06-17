@@ -1,27 +1,39 @@
 "use client";
 import Header from "@/components/Header";
-import styles from "./page.module.scss";
 import Project from "./Project";
 
-const projects = [
+interface ProjectItem {
+  name: string;
+  description: string;
+  href?: string;
+  git?: string;
+  imageSrc: string;
+}
+
+const projects: ProjectItem[] = [
   {
-    name: "Портфолио разработчика OSU",
+    description: "ShitCoin",
+    name: "Самая ценная криптовалюта в мире",
+    imageSrc: "https://i.imgur.com/Lry299Z.jpeg",
+  },
+  {
+    description: "Портфолио разработчика OSU",
     href: "https://github.com/ShitCoderz/shit-ppy",
     git: "https://shitcoderz.github.io/shit-ppy/",
-    description: "Shit PPY",
+    name: "Shit PPY",
     imageSrc: "https://i.imgur.com/xsvPGW9.png",
   },
   {
-    name: "Лучший сервис для сокращения ссылок",
+    description: "Лучший сервис для сокращения ссылок",
     href: "https://c.shitcoderz.ru",
     git: "https://github.com/ShitCoderz/short-url",
-    description: "Сокращатель ссылок",
+    name: "Сокращатель ссылок (не активен)",
     imageSrc: "https://i.imgur.com/Zj7AFHx.png",
   },
   {
-    name: "Краткое пособие для начинающих разработчиков",
+    description: "Краткое пособие для начинающих разработчиков",
     href: "https://yota002.notion.site/Front-End-fbf49fdfbf0d43acadd168cb6f4470a2",
-    description: "Старт во Front-End",
+    name: "Старт во Front-End",
     imageSrc: "https://i.imgur.com/L5zch0f.png",
   },
 ];
